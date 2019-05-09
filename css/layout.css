@@ -7,6 +7,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  clear: both;
 }
 
 .clearfix:after {
@@ -24,4 +25,55 @@
 
 /* Positioning Classes */
 
+#feature {
+  margin-bottom: 20px;
+}
+#summer_grass{
+  width: 64%;
+  display: inline-block;
+  float: left;
+  margin-right: 3%;
+}
 
+#archive {
+  width: 32%;
+  display: inline-block;
+}
+
+#ladybug {
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 2.5%;
+  display: inline-block;
+  clear: both;
+}
+
+#skaters{
+  width: 30%;
+  display: inline-block;
+}
+
+#bluestar{
+  width: 33%;
+  margin-left: 2.5%;
+  display: inline-block;
+}
+
+#contact{
+  display: inline-block;
+  width: 30%;
+  margin-right: 2.5%;
+  clear:both;
+}
+
+#links{
+  display: inline-block;
+  width: 30%;
+}
+
+.follow{
+  display: inline-block;
+  width: 30%;
+  margin-left: 2.5%;
+  vertical-align:top;
+}
