@@ -24,4 +24,8 @@
 
 /* Positioning Classes */
 
-
+div .wrapper {
+  column-count: 3;
+  column-gap: .5px;
+  column-rule-width: 1px;
+}
